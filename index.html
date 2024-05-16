@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate for CODEV CLUB</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./gehu.jpg" alt="Graphic era hill university">
+        <h4>Get your certificate also follow to 👉👉👉👉👉👉 <br></h4>
+    </header>
+    <main>
+        <marquee>
+            <img src="./gehu.jpg" alt="Codev Club Logo">
+            <img src="./codevlogo.jpeg" alt="Codev Club Logo">
+        </marquee>
+        <br>
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="name" autocomplete="name" placeholder="Enter your name" id="name" minlength="3" maxlength="40">
+        <label for="college">Type Your College Name</label>
+        <input required type="text" name="college" autocomplete="college" placeholder="Enter your college name" id="college" minlength="3" maxlength="40">
+        <button id="submitBtn">Get Certificate</button>
+        <br>
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./my.js"></script>
+</body>
+
+</html>
